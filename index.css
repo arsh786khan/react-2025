@@ -1,3 +1,38 @@
-#container {
-    background-color: red;;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    padding: 10px;
+}
+.nav-items ul{
+    display: flex;
+}
+.nav-items ul li{
+    list-style: none;
+    font-size: 24px;
+    padding: 0 15px;
+}
+.res-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+.product-card{
+    width: 25%;
+    padding: 10px;
+    cursor: pointer;
+}
+.product-card:hover{
+    border: 1px solid black;
+}
+.product-card img{
+    width:100%;
+    height: 200px;
+}
+.filter-btn{
+    margin-top: 10px;
+    cursor: pointer;
 }
